@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link href="krstyle.css" rel="stylesheet">
+  <title>Контрольная работа</title>
+
+</head>
+
+<body style="background-color:rgb(203, 229, 233);">
+  <header class="header_fixed">
+    <div class="center header">
+      <h1 class="text">Первая контрольная работа</h1>
+      <nav>
+        <div class="nav">
+          <a href="#main">Введение</a>
+          <a href="#theme">Тема 1</a>
+          <a href="#theme2">Тема 2</a>
+          <a href="#stats">Статистика</a>
+          <a href="#contacts">Обратная связь</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="main" class="center main">
+      <h2>Контрольная работа осуществляется Мартыненко Марком. <br> Тема сайта: победа Team Spirit на The International
+        10 по игре Dota 2.<br> </h2>
+    </div>
+    <div id="theme" class="theme main">
+      <h3>Текущий состав Team Spirit:</h3>
+      <hr>
+      <ul>
+        <li>Илья «Yatoro» Мулярчук</li>
+        <li>Александр «TORONTOTOKYO» Хертек</li>
+        <li>Магомед «Collapse» Халилов</li>
+        <li>Мирослав «Mira» Колпаков</li>
+        <li>Ярослав «Miposhka» Найденов</li>
+        <li>Тренер Айрат «Silent» Газиев</li>
+      </ul>
+      <hr>
+    </div>
+    <div id="theme2" class="theme main">
+      <hr>
+      <ol>
+        <h3>Информация о команде:</h3>
+        <li>Team Spirit - российская киберспортивная организация, созданная в 2015 году</li>
+        <li>Групповой этап на TI10 они начали с двух поражений, но это не помешало им занять первое место и выиграть
+          турнир</li>
+        <li>Это была вторая победа на The International среди стран СНГ-региона</li>
+        <li>Cредний возраст участников команды 20 лет (одна из самых молодных на турнире)</li>
+        <li>Ребята победили команду-фаворит сезона «PSG.LGD» на двух первых картах, а потом также без шансов отдали еще
+          две. Тогда уже казалось, что силы наших иссякли, ведь прежде чем попасть в финал они в тот же день сыграли три
+          труднейших карты с командой Team Secret. В истории Доты 2 никто не выигрывал TI, проиграв перед этим четвертую
+          карту. Никто,
+          кроме Team Spirit</li>
+      </ol>
+      <hr>
+    </div>
+    <div id="stats" class="stats">
+      <hr>
+      <table border="1px" class="table">
+        <caption class="table_title">Таблица самых важных турнирных игр, в которых принимала участие команда Team Spirit
+        </caption>
+        <tr>
+          <th rowspan="1" class="first">Событие</th>
+          <th rowspan="1" class="first">Место</th>
+          <th rowspan="1" class="first">Приз</th>
+        </tr>
+        <tr>
+          <td>The Shanghai Major 2016</td>
+          <td>13-е - 16-е</td>
+          <td>30 000 $</td>
+        </tr>
+        <tr>
+          <td>WePlay Dota 2 League Season 3</td>
+          <td>7-е - 8-е</td>
+          <td>5 206 $</td>
+        </tr>
+        <tr>
+          <td>WellPlay Invitational #7</td>
+          <td>1-е</td>
+          <td>2 500 $</td>
+        </tr>
+        <tr>
+          <td>OverPower Cup #1</td>
+          <td>1-е</td>
+          <td>3 500 $</td>
+        </tr>
+        <tr>
+          <td>China Dota2 Supermajor</td>
+          <td>13-е - 16-е</td>
+          <td>15 000 $</td>
+        </tr>
+        <tr>
+          <td>The International 10</td>
+          <td>1-е</td>
+          <td>18 208 279 $</td>
+        </tr>
+      </table>
+      <hr>
+    </div>
+    <div id="contacts" class="contacts">
+      <h3 class="center">Форма обратной связи</h3>
+      <form action="#" class="center">
+        <label for="name">Ваше имя:</label>
+        <input type="text" placeholder="Ваше имя" id="name" name="name" class="input">
+        <label for="email">Ваша почта:</label>
+        <input type="email" placeholder="Ваша почта" id="email" name="email" class="input">
+        <label for="age">Ваш возраст:</label>
+        <input type="number" placeholder="Ваш возраст" min="1" max="99" id="age" name="age" class="input">
+        <label for="sex">Ваш пол:</label>
+        <select name="sex" id="sex" class="input">
+          <option value="Мужской">Мужской</option>
+          <option value="Женский">Женский</option>
+        </select>
+        <label for="review">О себе</label>
+        <textarea placeholder="О себе" id="review" name="review" class="input"></textarea><br><br>
+        <button type="submit" class="input button">Отправить</button>
+      </form>
+    </div>
+  </main>
+</body>
+
+</html>

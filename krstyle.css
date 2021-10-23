@@ -1,0 +1,78 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.first {
+  background-color: White;
+}
+
+.center {
+  text-align: center;
+}
+
+.main, .stats, .contacts {
+  padding-top: 100px;
+  height: 50vh;
+}
+
+.table {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.table tr:nth-child(2n + 1) {
+  background-color: lightblue;
+}
+
+.table_title {
+  padding-bottom: 15px;
+}
+
+.table td, .table th {
+  padding: 10px;
+}
+
+.contacts form label {
+  padding-top: 16px;
+  display: block;
+}
+
+.input {
+  width: 200px;
+}
+
+.button:hover {
+  background-color: cyan;
+}
+
+.button:active {
+  background-color: darkblue;
+  color: white;
+}
+
+.header_fixed {
+  position: fixed;
+  background-color: White;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+.theme {
+  padding-top: 100px;
+  height: 50vh;
+}
+
+.nav {
+  padding-bottom: 5px;
+}
